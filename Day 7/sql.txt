@@ -1,0 +1,23 @@
+Q1 What is Sql Injection?
+->Sql injection is a tool that provides basic login details like social engg tool,which uses methods like for same username and same password.
+
+Q2 Why input validation failure causes SQL Injection?
+->Input validation fail because if we keep same username as pssword it takesm1 true value performs or operation with that true value.
+
+Q3 Explain the payload: or
+' OR '1'='1
+->If there is same username and password as login details then this payload is designed in such a way that it takes 1 true value and perform operation on that same value and bypasses the security easily this is basic sql injection.
+
+Q4What happens at database level when this payload is executed?
+->In database it matches the value which has 1 true value as username and same as password then in all the tables it takes that values which have this same condition and performs those values at once which byapss security.
+
+Q5 Why authentication was bypassed?
+->If we keep same username and password it takes 1 true value performs or operations with that
+true value.
+
+Q6 Which logs would record SQL Injection attempts?
+Apache access log or Error log
+->Apache access log
+
+Q7 Which tools help prevent it?
+-> Fail2ban 
